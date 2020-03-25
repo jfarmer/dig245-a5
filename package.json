@@ -1,0 +1,27 @@
+{
+  "name": "dig245-a5",
+  "version": "1.0.0",
+  "description": "usability test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wismith/dig245-a5.git"
+  },
+  "keywords": [
+    "google",
+    "maps",
+    "usability"
+  ],
+  "author": "will smith",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wismith/dig245-a5/issues"
+  },
+  "homepage": "https://github.com/wismith/dig245-a5#readme",
+  "dependencies": {
+    "surge": "^0.21.3"
+  }
+}
