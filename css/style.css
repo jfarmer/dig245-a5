@@ -1,24 +1,68 @@
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
 header {
+  width: 100%;
   text-align: center;
+  background-color: #DB4437;
+  border-bottom: 5px solid #4285F4;
+  padding: 2%;
+  height: fit-content;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: #DB4437;
+  border-top: 5px solid #4285F4;
+  padding: 2%;
+  text-align: center;
+}
+
+header h1 {
+  background-color: white;
+  color: #4285F4;
+  border: 5px solid #0F9D58;
+  border-radius: 2rem;
+  padding: 2%;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #F4B400;
+  margin: 0 auto;
 }
 
 #page-content {
   width: 90%;
-  margin: 2% auto;
+  margin: 2% auto;;
 }
 
 .content {
   width: 75%;
-  margin: 2% auto;
+  margin: 5% auto;
   justify-content: center;
+  height: fit-content;
+  background-color: white;
+  border: 5px solid #4285F4;
+  padding: 2%;
+  border-radius: 2rem;
+  color: black;
+  font-family: ;
 }
-
-
 
 .image {
   width: 80%;
   margin: 2% auto;
   height: fit-content;
+}
+
+.image-container {
+  width: 100;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
 }
 
 .in-text-image {

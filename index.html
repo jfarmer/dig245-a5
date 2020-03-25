@@ -3,14 +3,14 @@
 <head>
   <title>Usability</title>
   <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
   <header><h1>Usability Test: <a href="https://www.google.com/maps/" target="_blank">Google Maps</a></h1></header>
-  <div class="image"><img src="images/main.png" alt="google maps"></div>
 
   <div id="page-content">
   <div id="intro" class="content">
-    <h3>Will Smith:</h3>
+    <h2>Will Smith:</h2>
     <p>
       I conducted a brief usability test of <a href="https://www.google.com/maps/" target="_blank">Google Maps</a> with my sister <strong>Sarah</strong>.  Sarah is 15 years old, and in the 9th grade.
       I gave her a series of 5 tasks to complete on the site, without any external aids. I also asked her to narrate her thought process as she
@@ -33,6 +33,9 @@
       search bar, she ended up navigating by dragging and zooming in using the trackpad.  She was able to find our location visually in about 30 seconds, but it took her another
       minute or so to actually pull up the Maps result for the address.
     </p>
+    <div class="image-container">
+      <img src="./images/main.png" class="in-text-image" alt="google maps">
+    </div>
   </div>
 
   <div id="photos" class="content">
@@ -41,9 +44,11 @@
       Here, also, Sarah browsed around by dragging and zooming on the map, rather than searching for a place by name or address.
       She found a local fast food restaurant called Jack's  on the map and clicked on its Google-style fork-and-knife restaurant icon. That pulled up Google's standard restaurant sidebar.
       To access the library of photos, she clicked on the featured image above the restaurant's name. With this step, she arrived on the page shown below with the photos accessible on Google Maps for this restaurant.
-      <img src="./images/jacks.png" class="in-text-image" alt="jacks" align="left">
-      <img src="./images/photos.png" class="in-text-image" alt="jacks" align="right">
     </p>
+    <div class="image-container">
+      <img src="./images/jacks.png" class="in-text-image" alt="jacks">
+      <img src="./images/photos.png" class="in-text-image" alt="jacks">
+    </div>
   </div>
 
   <div id="save" class="content">
@@ -53,18 +58,59 @@
       to save a location to a list on your account.  The icon marked "Save", so it would a pretty straight-forward action for the average user.  After Sarah clicked the icon,
       the page gave her the visual confirmation that the restaurant had been saved.
     </p>
-    <div>
-      <img src="./images/not-saved.png" alt="" style="width: 25%;"><img src="./images/saved.png" alt="" style="width: 25%;">
+
+    <div class="image-container">
+      <img src="./images/not-saved.png" class="in-text-image"alt="save icon">
+      <img src="./images/saved.png" class="in-text-image"alt="saved icon">
+    </div>
+
+  </div>
+
+  <div id="directions" class="content">
+    <h2>4.  Find directions to a place you go frequently.</h2>
+    <p>
+      <img src="./images/directions.png" class="in-text-image" alt="directions" align="right">
+      For this task, Sarah chose to find directions to the stables where she rides horses.  This was the first time she used the search bar -
+      she typed in the name of the country road that leads to the stables, and then found a marker on the map for the actual location.  She was quick to find the "directions" icon
+      on the layout, and pulled up the map presentation of three route options, as seen here.
+
+      However, once she got to this point, she found herself a bit "stuck" - it wasn't apparent to her how to generate the step-by-step directions from this point.
+      After a minute, she did finally figure out that she had to select and click on one of the route options on the left side of the page.  Perhaps an improvement to this page would be
+      some sort of indication like "choose a route:" or something similar, to guide the user through these steps for finding their directions.
+
+    </p>
+  </div>
+
+  <div id="link" class="content">
+    <h2>5.  Find the link to share these directions</h2>
+    <p>
+      Sarah very easily found the feature to share the link to these directions, once she pulled up the step-by-step page for that specific route.
+      She intuitively recognized Google's connected-nodes icon for sharing content, and clicked that to pull up a box with the link and more sharing options, as seen below.
+    </p>
+
+    <div class="image-container">
+      <img src="./images/share-icon.png" class="in-text-image"alt="share icon">
+      <img src="./images/link.png" class="in-text-image"alt="link page">
     </div>
   </div>
 
-  <div id="directions" class="content"></div>
-
-  <div id="link" class="content"></div>
-
-
+  <div id="recap" class="content">
+    <h2>Recap</h2>
+    <p>
+      Ultimately, Sarah was pretty successful in using Google Maps to accomplish the 5 tasks presented here. She predominantly used the methods
+      that she knew the best (navigating on the map by dragging and zooming), rather than the quickest methods (e.g. the search bar).  However, she likely
+      would find her way to this faster method with more extensive and frequent use of the site.  Google's well-designed and intuitive icons made it simple for her to
+      find the features that she needed to accomplish the given tasks - this is consistent with the majority of other Google products, which use the same design scheme.
+    </p>
+  </div>
   </div>
 
+  <footer>
+    <a href="#">Back to top</a>
+
+    <h3>Will Smith, March 2020</h3>
+
+  </footer>
 
 
 </body>
