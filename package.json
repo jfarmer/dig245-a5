@@ -1,0 +1,23 @@
+{
+  "name": "dig245-a5",
+  "version": "1.0.0",
+  "description": "- Conduct a usability test [following these instructions](https://omundy.wordpress.com/2015/04/10/usability-test/) - Compile results, recommendations, screenshots according to the instructions.  - Design a page with your results using HTML and CSS.  Do not use a site template. The point is that you build a custom design. - Confirm your page uses valid [HTML](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-validator/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LilianKorir/dig245-a5.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LilianKorir/dig245-a5/issues"
+  },
+  "homepage": "https://github.com/LilianKorir/dig245-a5#readme",
+  "dependencies": {
+    "surge": "^0.21.3"
+  }
+}
