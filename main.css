@@ -1,0 +1,39 @@
+
+body{
+  background-color: rgb(97, 156, 97);
+  color:white;
+}
+
+a{
+  color: white;
+  font-family: cursive;
+}
+.body{
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+  text-align: center;
+}
+.section {
+  border-radius: 50%;
+}
+.list {
+  text-align: center;
+  list-style-position: inside;
+}
+
+.section{
+  border-style: dotted;
+  border-color:  rgb(148, 189, 152);
+}
+
+#table {
+  border-radius: 0%;
+  border-color: transparent;
+}
+#images {
+  border-radius: 0%;
+  border-color: transparent;
+
+
+}
