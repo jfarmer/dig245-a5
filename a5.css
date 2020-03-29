@@ -1,0 +1,15 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 85%;
+  height:auto;
+}
+html {
+  background-color: orange;
+font-size: large;
+font-family: fantasy
+}
+p9{
+font-size: 25px;
+}
