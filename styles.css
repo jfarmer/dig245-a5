@@ -1,0 +1,40 @@
+body {
+  background-color: lightslategray;
+  text-align: justify;
+}
+
+p {
+  color: lightyellow;
+  font-size: 22px;
+}
+p:hover {
+  background-color: rgb(116, 129, 143);
+}
+
+.stepsList {
+  font-size: 22px;
+}
+
+.stepsCount {
+  color: yellow;
+  font-size: 26px;
+}
+
+h1 {
+  font-size: 29px;
+  color: darkred;
+  display: inline;
+  border-style: double;
+  border-radius: 8px;
+  border-width: 4px;
+  border-color: lavender
+}
+
+.stepsAnnouncer {
+  color: yellow;
+}
+
+h6 {
+  text-align: right;
+}
+
