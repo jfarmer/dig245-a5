@@ -1,0 +1,23 @@
+body {
+  font-family: 'Courier New', monospace;
+  font-size: 20px;
+  background-color: rgba(185, 177, 177, 0.377);
+}
+
+ol {
+  font-size: 30px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.navigation {
+  margin: -10% 10% 0 0;
+  float: right;
+}
+
+.content {
+  margin: 0 30% 0 0;
+  line-height: 1.6;
+}
